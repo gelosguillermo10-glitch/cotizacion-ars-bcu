@@ -28,7 +28,7 @@ jobs:
           node-version: '20'
 
       - name: Pruebas del actualizador (sin red)
-        run: node test/test.mjs
+        run: node cotizacion-ars-bcu/test/test.mjs
 
       - name: Consultar BCU y actualizar cotizacion-ars.json
         id: bcu
