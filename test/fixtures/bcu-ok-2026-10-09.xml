@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SOAP-ENV:Body>
+		<wsbcucotizaciones.ExecuteResponse xmlns="Cotiza">
+			<Salida xmlns="Cotiza">
+				<respuestastatus>
+					<status>1</status>
+					<codigoerror>0</codigoerror>
+					<mensaje/>
+				</respuestastatus>
+				<datoscotizaciones>
+					<datoscotizaciones.dato xmlns="Cotiza">
+						<Fecha>2026-10-08</Fecha>
+						<Moneda>500</Moneda>
+						<Nombre>PESO ARGENTINO</Nombre>
+						<CodigoISO>ARS</CodigoISO>
+						<Emisor>ARGENTINA</Emisor>
+						<TCC>0.026517</TCC>
+						<TCV>0.026517</TCV>
+						<ArbAct>1516.360000</ArbAct>
+						<FormaArbitrar>0</FormaArbitrar>
+					</datoscotizaciones.dato>
+					<datoscotizaciones.dato xmlns="Cotiza">
+						<Fecha>2026-10-09</Fecha>
+						<Moneda>500</Moneda>
+						<Nombre>PESO ARGENTINO</Nombre>
+						<CodigoISO>ARS</CodigoISO>
+						<Emisor>ARGENTINA</Emisor>
+						<TCC>0.026506</TCC>
+						<TCV>0.026506</TCV>
+						<ArbAct>1516.035900</ArbAct>
+						<FormaArbitrar>0</FormaArbitrar>
+					</datoscotizaciones.dato>
+				</datoscotizaciones>
+			</Salida>
+		</wsbcucotizaciones.ExecuteResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
