@@ -1,16 +1,16 @@
 {
   "moneda": "ARS",
   "base": "UYU",
-  "uyu_por_ars": 0.026164,
-  "ars_por_uyu": 38.220456,
+  "uyu_por_ars": 0.026218,
+  "ars_por_uyu": 38.141735,
   "formula": "ARS = UYU / uyu_por_ars",
-  "fecha_cotizacion": "2026-11-09",
+  "fecha_cotizacion": "2026-11-10",
   "fuente": "Banco Central del Uruguay (BCU) — servicio web de cotizaciones, moneda 500 \"PESO ARGENTINO\" (tipo vendedor)",
   "fuente_url": "https://cotizaciones.bcu.gub.uy/wscotizaciones/servlet/awsbcucotizaciones?wsdl",
-  "actualizado": "2026-11-09T23:05:32.662Z",
+  "actualizado": "2026-11-10T20:32:20.383Z",
   "estado": {
     "ok": true,
-    "ultimo_intento": "2026-11-10T04:12:18.446Z",
-    "mensaje": "Sin cambios (el BCU no publicó una cotización nueva)"
+    "ultimo_intento": "2026-11-10T20:32:20.383Z",
+    "mensaje": "Cotización actualizada"
   }
 }
